@@ -1,0 +1,7 @@
+# node application for ynu-status
+ynu-status:
+    #image: ynuae/ynu-status
+    build: .
+    ports:
+      - "50110:8080"
+    restart: always
